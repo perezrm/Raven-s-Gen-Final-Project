@@ -1,0 +1,117 @@
+
+/*------------ navbar-styling ------------*/
+
+.nav-active {
+  background-color: #231076;
+ 
+}
+.inner-nav {
+  max-width: 1500px;
+}
+
+nav {
+  z-index: 1;
+  display: flex;
+
+  margin: auto;
+}
+.navbar-links-container {
+  margin: auto;
+}
+/* logo */
+#ravens-logo {
+  width: 6rem;
+}
+/* navbar hamburger */
+#cart-logo {
+  width: 3rem;
+  color: white;
+}
+.row .three {
+  padding: 80px 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ecf0f1;
+  text-align: center;
+}
+
+.hamburger .line {
+  width: 50px;
+  height: 3.5px;
+  background-color: #ecf0f1;
+  display: block;
+  margin: 8px auto;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#line-3 {
+  width: 35px;
+  margin-left: 0px;
+}
+.hamburger:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  /* navbar */
+  .nav-item a {
+    margin: auto;
+  }
+  .navbar {
+    background-color: #231a2c;
+  }
+  .home-content-container {
+    margin-top: 79.1px;
+  }
+  /* logo */
+  #ravens-logo {
+    width: 6rem;
+  }
+  #cart-logo {
+    width: 3rem;
+  }
+  .nav-link {
+    font-size: 1.3rem;
+    font-weight: 100;
+  }
+
+ 
+}
+@media screen and (min-width: 992px) {
+  /* navbar */
+
+  /* logo */
+  /* logo */
+  /* navbar */
+  #ravens-logo {
+    width: 7rem;
+  }
+  /* navbar hamburger */
+  #cart-logo {
+    width: 3rem;
+  }
+  .nav-link {
+    font-size: 1.3rem;
+  }}
+  
+  @media screen and (min-width: 1400px) {
+    /* navbar */
+
+    /* logo */
+    /* logo */
+
+    /* navbar */
+    #ravens-logo {
+      width: 8rem;
+    }
+    /* navbar hamburger */
+    #cart-logo {
+      width: 3.5rem;
+    }
+    .nav-link {
+      font-size: 1.6rem;
+    }
+  }

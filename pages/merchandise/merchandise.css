@@ -1,0 +1,432 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ /*=============== For Jersey extended background ==============*/
+body {
+  background-color: #e7e7e7;
+}
+
+
+ /*=============== fonts ==============*/
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Sarabun:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+  /*=============== section main site background ==============*/
+  
+ .merch-top-main {
+    height: 100%;
+    background-image: linear-gradient(180deg, #241A2C 45%, rgba(36, 26, 44, 0) 100%),
+     url("../../images/stadium.jpg");
+    
+ 
+   /* Image is centered vertically and horizontally at all times */
+   background-position: 50% center;
+   
+ 
+   /* Image doesn't repeat */
+   background-repeat: no-repeat;
+ 
+   /* Makes the image fixed in the viewport so that it doesn't move when 
+      the content height is greater than the image height */
+   background-attachment: fixed;
+ 
+   /* This is what makes the background image rescale based on its container's size */
+   background-size: cover;
+ 
+ 
+ }
+
+ .merch-header{
+  background-color: #241A2C;
+  color: white;
+  border: none;
+  padding: 6rem 0 2rem 2rem;
+  margin-bottom: 0;
+  
+
+ }
+
+/*== Merchandise text ===*/
+h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  
+}
+
+ #underline {
+   background-color: white;
+   width: 10rem;
+   height: .2rem;
+   opacity: 1;
+ 
+  
+ }
+
+ /*=============== section of main cards ==============*/
+ .card {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 36.46%, #000000 100%);
+  border: none;
+  border-radius: 30px;
+  padding-top: 2rem;
+
+}
+
+ /*=============== Grey t-Shirt cards ==============*/
+.card-container {
+  position: relative;
+
+}
+
+#sale-card-top {
+background-color: #CF0000;
+color: white;
+position: absolute;
+top: 0;
+right: 2rem;
+-webkit-border-top-right-radius: 25px;
+-moz-border-radius-topright: 25x;
+border-top-right-radius: 25px;
+padding: 1rem 1.6rem .6rem;
+text-transform: uppercase;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 700;
+}
+
+.item-price {
+font-size: 1.75rem;
+font-weight: 100;
+}
+
+.item-price span {
+color: red;
+text-decoration: line-through;
+font-size: 1.75rem;
+font-weight: 100;
+margin-left: 1.25rem;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+ /* Ravens T-shirt */
+#Gtee {
+  padding-top: 1rem;
+}
+
+
+.card .img {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+ }
+ 
+.card img {
+  width: 100%;
+  height: 31rem;
+}
+ 
+#beanie1 {
+  height: 65%;
+  width: 45%;
+  display: block;
+  /* padding-top: 2rem; */
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#beanie2 {
+  height: 100%;
+  width: 55%;
+  display: block;
+  /* padding-top: 2rem; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img1 img {
+  width: 50%;
+  height: fit-content;
+  
+}
+
+#img2 img {
+  width: 50%;
+  height: fit-content;
+}
+
+#row1 {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+
+}
+
+#row2 {
+  
+padding-bottom: 10rem;
+
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1.5rem;
+  
+}
+
+ .card-body {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  padding-left: 2rem;
+  font-size: 1.75rem;
+  font-weight: 100;
+  padding-bottom: 3rem;
+  
+ }
+
+      /* button style */
+ .add-to-cart{
+    color: white;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: .5rem 1.1rem;
+    border-radius: 23px;
+    font-weight: 100;
+    font-size: 1.4rem;
+    
+ }
+
+ .buy-now-btn {
+    color: white;
+    text-align: center;
+    border: 1px solid #ca9425;
+    background-color: #231076;
+    padding: .5rem 1.5rem;
+  
+    font-weight: 100;
+    font-size: 1.4rem;
+   
+ }
+
+ /*=============== section large images ==============*/
+ 
+ #jersey1, #jersey2 {
+   width: 100%;
+   height: 100%;
+   
+ }
+ /*=============== end of mobile ==============*/
+
+  /*=============== media queries section break 768 ==============*/
+
+ @media screen and (min-width: 768px) {
+  
+  .merch-header{
+    padding: 8rem 0 2rem 2rem;
+   
+
+   }
+
+   #underline {
+     background-color: white;
+     width: 7rem;
+     height: .15rem;
+     opacity: 1;
+   
+   }
+
+         /* Ravens T-shirt */
+   #Gtee {
+    padding-top: 2rem;
+  }
+
+  h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    
+}
+
+.card .img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+
+ }
+ 
+.card img {
+    width: 100%;
+    height: 23rem;
+
+
+}
+
+ .card-body {
+
+
+  padding-bottom: 5rem;
+  
+ }
+
+
+      /* button style */
+
+
+      /* button style */
+ .add-to-cart{
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+ }
+
+ .buy-now-btn {
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+ }
+ .card:nth-child(3){
+   color: red;
+ }
+#beanie1 {
+  height: 30%;
+  width: 65%;
+  display: block;
+  margin-top: 3.5rem;
+  margin-bottom: 9.3rem;
+
+  /* margin-left: auto;
+  margin-right: auto; */
+
+}
+#beanie1:nth-child(3)
+#beanie2 {
+  height: 55%;
+  width: 70%;
+  display: block;
+  margin-top: 3rem;
+  margin-bottom: 5.8rem;
+
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1.35rem;
+  
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+
+}
+  
+   
+ /*=============== End of 768px ==============*/
+
+
+ /*=============== Start of 992px ==============*/
+
+@media screen and (min-width: 992px) {
+  
+  .merch-header{
+    padding: 9rem 0 2rem 2rem;
+   
+
+   }
+    .card-body {
+
+
+  padding-bottom: 0;
+  
+ }
+      /* button style */
+ .add-to-cart{
+    padding: .5rem 1.5rem;
+    font-size: .8rem;
+ }
+
+ .buy-now-btn {
+    padding: .5rem 1.5rem;
+    font-size: .8rem;
+ }
+
+   #beanie1 {
+    height: 30%;
+    width: 65%;
+    display: block;
+    margin-top: 3.5rem;
+    margin-bottom: 7.3rem;
+   
+  
+  }
+
+#beanie2 {
+    height: 55%;
+    width: 70%;
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: 5.8rem;
+
+  }
+
+
+  /* cardbody text */
+  h5 {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 1.30rem;
+    
+  }
+
+  #row1 {
+    
+    padding-bottom: 5rem;
+  
+  }
+  
+  #row2 {
+    padding-bottom: 10rem;
+  
+  }
+
+  p {
+    font-size: 1.6rem;
+    font-weight: 100;
+  }
+
+  .item-price {
+    font-size: 1.6rem;
+    font-weight: 100;
+    }
+    
+    .item-price span {
+    color: red;
+    text-decoration: line-through;
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin-left: 1.25rem;
+    }
+
+
+}
+/*=============== End of 992px ==============*/
+ 

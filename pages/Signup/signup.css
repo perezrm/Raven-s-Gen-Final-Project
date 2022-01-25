@@ -1,0 +1,211 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body{
+  position: relative;
+  height: 100vh;
+}
+/* row image */
+.bg-img{
+   height: 100vh;
+background-image:  url("../../images/Fancatchingtheball.png");
+
+/* Image is centered vertically and horizontally at all times */
+background-position: 50% center;
+
+/* Image doesn't repeat */
+background-repeat: no-repeat;
+
+
+
+/* This is what makes the background image rescale based on its container's size */
+background-size: cover;
+
+
+}
+.second-col{
+  background-color: rgba(25, 17, 61, 0.851);
+  height: 100vh;
+  display: none;
+}
+/* Sing in form container style */
+.sing-in-form{
+  color: white;
+background: #CA9425A6;
+z-index: 1;
+
+/* position */
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100vw;
+
+}
+.sing-in-form p:first-child{
+  margin-left: 65%
+}
+.home-link{
+  padding-bottom: 13rem;
+}
+.sing-in-inner {
+width: 85%;
+  margin: auto;
+ 
+color: white;
+}
+.sing-in-inner h1{
+  font-weight: 500;
+  font-size: 2.7rem;
+}
+.sing-in-inner label{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1rem;
+
+}
+.sing-in-inner input{
+  border-radius: 3rem;
+  border: 2px solid white;
+  padding: 7px;
+  background-color: rgb(255, 255, 255,.5);
+}
+.sing-btn{
+border: 1px solid white !important;
+border-radius: 7rem !important;
+height: 36px;
+padding: 0rem 2rem !important;
+font-size: 1.1rem !important;
+
+}
+
+/* footer */
+.footer{
+  width: 100vw;
+  background-color: #23107680;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+
+.footer-img img{
+  width: 5rem;
+
+}
+.footer-header h1{
+  position: absolute;
+  font-weight: 400;
+  font-size: 1.7rem;
+  top:-1.4rem;
+  left: 1.3rem;
+}
+.footer-header span{
+  border-bottom: 3px solid white;
+  font-weight: 700;
+}
+.footer-header span:last-child{
+  border: none;
+}
+
+/* anything above this is for mobile  */
+@media screen and (min-width: 768px) {
+
+ 
+.second-col{
+
+  height: 100vh;
+  display: block;
+}
+
+
+/* Sing in form container style */
+.sing-in-form{
+
+width: 75vw;
+
+}
+.sing-in-form p:first-child{
+  margin-left: 75%
+}
+.sing-in-inner {
+width: 50%;
+     margin-left: 15px;
+ 
+color: white;
+}
+
+
+.sing-in-inner input{
+  padding: 2px;
+
+}
+
+/* footer */
+.footer-header h1{
+
+  font-size: 1.7rem;
+  font-weight: 600;
+  top:-1.2rem;
+  left: 1.3rem;
+}
+.footer-header h1 span{
+
+  font-size: 2.5rem;
+
+}
+}
+@media screen and (min-width: 992px) {
+
+/* Sing in form container style */
+.sing-in-form{
+
+width: 60vw;
+
+}
+
+.sing-in-inner {
+width: 55%;
+
+  margin-left: 31%;
+ 
+color: white;
+}
+.sing-in-form p:first-child{
+  margin-left: 70%
+}
+
+.sing-in-inner input{
+  padding: 2px;
+
+}
+}
+@media screen and (min-width: 1200px) {
+
+/* Sign in form container style */
+
+
+.sing-in-inner {
+width: 55%;
+
+  margin-left: 31%;
+ 
+color: white;
+}
+
+
+
+.sing-in-inner input{
+  padding: 2px;
+
+}
+}
+@media screen and (min-width: 1200px) {
+.sing-in-form p:first-child{
+  margin-left: 73%
+}
+}

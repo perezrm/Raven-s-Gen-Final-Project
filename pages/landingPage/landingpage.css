@@ -1,0 +1,856 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mustard-color {
+  color: #ca9425;
+}
+/* carousel style are at the bottom of the file */
+/* font families 
+font-family: 'Barlow', sans-serif;
+font-family: 'Lato', sans-serif;
+
+*/body{
+  padding-right: 0px !important;
+  overflow-x: hidden !important;
+}
+/*------------ navbar-styling ------------*/
+html {
+  font-family: "Barlow", sans-serif;
+}
+
+/*------------ header styling ------------*/
+
+/* homes section and header background image*/
+#home-section {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("./images/headerBackground.png");
+
+  /* Image is centered vertically and horizontally at all times */
+  background-position: 50% center;
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color: #464646;
+}
+
+/* header text */
+#top-hr {
+  background-color: white;
+  height: 0.1rem;
+  border: 0;
+  width: 35%;
+  opacity: 1;
+  border-radius: 4px;
+  margin-bottom: 0.1rem;
+}
+#bottom-hr {
+  background-color: white;
+  height: 0.1rem;
+  border: 0;
+  width: 80%;
+  opacity: 1;
+  border-radius: 4px;
+}
+.headline-header {
+  color: white;
+  margin-top: 24.6rem;
+  text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
+}
+.headline-header h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+}
+.headline-header span {
+  color: #ca9433;
+  font-size: 4.2rem;
+}
+.header-btn {
+  font-size: 1.5rem;
+}
+
+/*------------ header-ticket container ------------*/
+.tickets-container {
+  background-color: white;
+  padding-top: 2rem;
+  border-top-left-radius: 1.3rem;
+  border-top-right-radius: 1.3rem;
+}
+.ticket-card {
+  background-color: #e8e8e8;
+}
+.ticket-card p {
+  font-size: 1.2rem;
+}
+.ticket-header h1 {
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 2rem;
+  color: #231076;
+}
+.ticket-header p {
+  font-weight: 300;
+}
+.buy-now-btn {
+  background-color: #231076;
+  color: white;
+  font-size: 1.1rem;
+  padding: 4% 20%;
+  font-weight: 100;
+  margin-bottom: 0.4rem;
+}
+.btn-card{
+  padding: 1rem 0;
+}
+.btn-card button {
+  width: 45%;
+ 
+}
+#sale-card-top,
+.item-info-container{
+display: none;
+}
+.add-cart-btn {
+  background-color: #ca9425;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+.ticket-container-btn {
+  border-left: 1px solid #999999;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#tickets-logo {
+  width: 5rem;
+}
+/*------------ Latest Styles container ------------*/
+.latest-style-container {
+  background-color: #231a2c;
+}
+.latest-style-header {
+  color: #ca9425;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.latest-style-p {
+  font-weight: 100;
+}
+/* caurosel */
+/* ------------ MEDIA RECAPS SECTION ------------ */
+.media-recaps-container {
+  background: linear-gradient(180deg, rgb(35, 26, 44, 900%) 0%, #000000 100%);
+
+}
+#recap-hr{
+  display: none;
+}
+.ray-iframe{
+width: 100%;
+  height: 21rem;
+
+}
+
+.media-icon-group img {
+  width: 2rem;
+  margin: 0px 0.4rem 0px;
+}
+.media-recap-header {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.overflow-scroll {
+  width: 95%;
+  margin: auto;
+  height: 80%;
+  overflow-x: hidden;
+}
+.media-inner{
+  max-width: 1300px;
+}
+.overflow-scroll iframe {
+
+  height: 6rem;
+  margin:0;
+width: 100%;
+ margin: auto;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.overflow-header {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+}
+.overflow-scroll p {
+  font-size: 1rem;
+ 
+}
+.up-next-card{
+border-radius: 1rem ;
+background-color: black;
+height: 100%;
+padding: .3rem 0 0rem .6rem;
+} 
+.up-next-card p{
+height: 100%;
+}
+
+
+
+
+/* overflow scroll */
+
+
+
+
+
+
+/*Side By Side Picture */
+
+.container.bg-black {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 325px 325px 120px;
+  gap: 25px;
+  margin: 0 auto 80px;
+  max-width: 80vw;
+}
+
+#grid_image {
+  width: 435px;
+  height: 257px;
+  justify-content: space-between;
+
+  overflow: hidden;
+}
+/*
+#grid_image2{
+  grid-column: 1;
+  grid-row: 2;
+
+  align-self: center;
+  justify-self: center;
+
+  z-index: 1;
+}
+
+
+
+>>>>>>> 395b96c (edited footer)
+
+/*------------ Footer------------*/
+
+.footer-area {
+  background: #0d0d1f;
+  bottom: 0;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  font-size: 19px;
+}
+
+.footer {
+  background-color: black;
+  font-family: "Barlow", sans-serif;
+}
+
+.footer_logo {
+  
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+.footer_logo_nfl {
+  
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+
+.newsletter_screenshot {
+  border-radius: 30px;
+}
+
+.footer_item {
+  font-size: 19px;
+  font-family: "Barlow", sans-serif;
+}
+
+
+
+.footer_title {
+  font-family: "Barlow", sans-serif;
+}
+
+.uil {
+  width: 100%;
+  height: 100%;
+}
+
+.footer_social {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  
+}
+
+.footer_copy {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .footer_item {
+    text-align: center;
+  }
+
+  .newsletter_screenshot {
+   text-align: center;
+   display: block;
+  }
+  
+  .footer_social{
+    display: block;
+    text-align: center;
+    padding-left: 90px;
+    margin-top: 30px;
+    font-size: 23px;
+  }
+  .footer_copy{
+    margin-top: 50px;
+  }
+}
+
+
+/* media queries */
+@media screen and (min-width: 768px) {
+  /* navbar */
+
+  /* header text */
+  #home-section {
+  background-position: 63% 5.9rem;
+
+}
+  #top-hr {
+   
+    width: 7.5rem;
+  }
+  #bottom-hr {
+    width: 12rem;
+    margin-top: -.1rem;
+  }
+  .headline-header {
+    margin-top: 25rem;
+  }
+  .headline-header h1 {
+    font-size: 2.5rem;
+  }
+  .headline-header span {
+    font-size: 2.8rem;
+  }
+  .header-btn {
+    font-size: 1.1rem;
+  }
+
+  /*------------ header-ticket container ------------*/
+  .tickets-container {
+    height: 100%;
+    margin-top: 4%;
+  }
+  .ticket-card {
+    background-color: #e8e8e8;
+    height: 100%;
+  }
+  .ticket-card span {
+    font-size: 1.5rem;
+  }
+  .ticket-card p {
+    font-size: 1rem;
+  }
+  .ticket-header h1 {
+    font-size: 1.6rem;
+  
+  }
+  
+  .buy-now-btn {
+    font-size: 0.7rem;
+    margin-bottom: 0.2rem;
+    padding: .4rem 1.1rem;;
+  }
+  .add-cart-btn {
+    font-size: 0.7rem;
+  }
+
+  #tickets-logo {
+    width: 4rem;
+  }
+
+#sale-card-top,
+.item-info-container{
+display: block;
+}
+/* latest styles */
+.latest-style-header {
+font-size: 3rem;
+}
+.latest-style-p {
+ font-size: 1.5rem;
+}
+
+/* mecia recaps  */
+#recap-hr{
+  display: block;
+  width: 12rem;
+  margin: auto;
+  opacity: 1;
+  
+}
+.media-inner{
+  min-width: 95vw;
+  margin: auto;
+}
+.media-icon-group{
+  margin-left: 3rem;
+}
+.media-icon-group img {
+  width: 1.5rem;
+  margin: 0px 0.1rem 0px;
+}
+.media-recap-header {
+  font-size: 2.2rem;
+
+}
+.media-slogan{
+  font-size: 1.1rem;
+text-align: start;
+}
+.media-info{
+ display: flex;
+}
+.media-br{
+  display: none;
+}
+/* overflow scroll */
+.overflow-scroll {
+  width: 100%;
+  height: 60%;
+  overflow-x: hidden;
+}
+
+.overflow-scroll iframe {
+  width: 100%;
+  height: 5rem;
+  margin-top:0rem;
+}
+.overflow-header {
+  font-size: .8rem;
+  
+}
+.overflow-scroll p {
+  font-size: .7rem;
+ font-weight: 100;
+}
+.up-next-card{
+border-radius: 1rem ;
+background-color: black;
+height: 100%;
+padding: .3rem 0 0rem .6rem;
+}
+.up-next-card p{
+height: 100%;
+}
+
+
+}
+
+/* media queries */
+@media screen and (min-width: 992px) {
+  /* navbar */
+  /* header text */
+   #home-section {
+  background-position: 75% 6.6rem;
+
+}
+  .headline-header {
+    margin-top: 30rem;
+  }
+  .headline-header h1 {
+    font-size: 3.5rem;
+  }
+  .headline-header span {
+    font-size: 4rem;
+  }
+  .header-btn {
+    font-size: 1.2rem;
+  }
+
+  /*------------ header-ticket container ------------*/
+  .tickets-container {
+    margin-top: 6vh;
+  }
+  .ticket-card span {
+    font-size: 1.5rem;
+  }
+  .ticket-card p {
+    font-size: 1.4rem;
+  }
+  .ticket-header h1 {
+    font-size: 2rem;
+  }
+  .ticket-header p {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  .buy-now-btn {
+    font-size: 1rem;
+    padding: .4rem 1.3rem;;
+  }
+  .add-cart-btn {
+    font-size: 1rem;
+  }
+
+  #tickets-logo {
+    width: 4rem;
+  }
+/* latest styles */
+.latest-style-header {
+font-size: 3rem;
+}
+.latest-style-p {
+ font-size: 1.5rem;
+ width: 90%;
+ margin: auto;
+}
+
+
+
+/* mecia recaps  */
+.media-inner{
+min-width: 3px;
+}
+.media-icon-group{
+  margin-left: 3rem;
+}
+.media-icon-group img {
+  width: 1.5rem;
+  margin: 0px 0.1rem 0px;
+}
+.media-recap-header {
+  font-size: 2.2rem;
+}
+.media-slogan{
+  font-size: 1.1rem;
+text-align: start;
+}
+.media-info{
+ display: flex;
+}
+.media-br{
+  display: none;
+}
+/* overflow scroll */
+.overflow-scroll {
+  width: 100%;
+  height: 60%;
+  overflow-x: hidden;
+}
+
+.overflow-scroll iframe {
+  width: 100%;
+  height: 5rem;
+  margin-top:0rem;
+}
+.overflow-header {
+  font-size: .8rem;
+  
+}
+.overflow-scroll p {
+  font-size: .7rem;
+ font-weight: 100;
+}
+.up-next-card{
+border-radius: 1rem ;
+background-color: black;
+height: 100%;
+padding: .3rem 0 0rem .6rem;
+}
+.up-next-card p{
+height: 100%;
+}
+  
+}
+@media screen and (min-width: 1400px) {
+
+   #home-section {
+  background-position: 50% 7.4rem;
+
+}
+
+/* latest styles */
+.latest-style-header {
+font-size: 3rem;
+}
+.latest-style-p {
+
+max-width: 50vw;
+
+}
+}
+@media screen and (min-width: 2500px) {
+.home-content-container{
+  max-width: 50vw;
+}
+}
+/*============ carousel style =============*/
+.card-container{
+  position: relative;
+}
+#sale-card-top{
+background-color: #CF0000;
+color: white;
+position: absolute;
+top: 0;
+right: 2rem;
+-webkit-border-top-right-radius: 17px;
+-moz-border-radius-topright: 17px;
+border-top-right-radius: 17px;
+padding: .3rem .7rem;
+text-transform: uppercase;
+font-weight: 400;
+}
+.item-price{
+  margin-top: -1rem;
+}
+.item-price span{
+color: red;
+text-decoration: line-through;
+margin-left: .5rem;
+}
+
+
+
+.carousel-container {
+  width: 1300px;
+  margin: 50px auto;
+  min-height: 200px;
+  position: relative;
+}
+.buy-card-btn {
+  background-color: #231076;
+  border: 1px solid #ca9425;
+}
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    width: 80%;
+  }
+ 
+  
+.carousel-container .card-container {
+  width: 20.7rem;
+
+}
+.carousel-container .card-container .card {
+
+  padding: 3rem 1rem;
+
+}
+
+
+
+}
+@media screen and (max-width: 1024px) {
+  .carousel-container {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1440) {
+  .carousel-container {
+    width: 85%;
+  }
+}
+
+.carousel-container .carousel-inner {
+  overflow: hidden;
+
+}
+.carousel-container .track {
+  display: inline-flex;
+  transition: transform 0.5s;
+}
+.carousel-container .card-container {
+
+  flex-shrink: 0;
+  height: auto;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.carousel-container .card-container .card {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, #000000 100%);
+ padding: 1.5rem 1rem;
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.nav button {
+  width: 60px;
+  height: 60px;
+  font-size: 6rem;
+  font-weight: 100;
+  color: white;
+  border: none;
+  position: absolute;
+  top: 30%;
+  right: .1rem;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* .nav .prev {
+  left: -30px;
+  display: none;
+}
+.nav .prev.show {
+  display: block;
+}
+.nav .next {
+  right: -30px;
+}
+.nav .next.hide {
+  display: none;
+} */
+.beanie{
+max-width: 70%;
+max-height: 65%;
+margin: auto;
+}
+.card .img {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+ }
+.img img {
+  width: 100%;
+  height: 17rem;
+}
+.card .info {
+  height: 3rem;
+}
+
+
+
+/* media Carousel */
+
+.media_carousel {
+  background: #010102;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(black 30% ,#18121f 50%, #18121f 80%  , black);
+  
+  
+}
+
+.media_carousel_content  {
+  
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 90%;
+    padding: auto;
+    
+
+}
+
+.player_standing {
+  height: auto;
+  width: 70%;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+  position: sticky;
+  
+  
+  
+}
+
+.player_throw {
+  height: auto;
+  width:70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:  25%;
+  margin-top: -50px;
+  border-radius: 23px;
+  z-index: 10;
+  position: sticky;
+
+  
+
+  
+}
+
+.player_running {
+
+  width: 65%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  border-radius: 23px;
+  position: sticky;
+  
+}
+
+
+
+.team_pointing {
+
+  height: 47%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  margin-top:  -25px;
+  border-radius: 23px;
+  position: sticky;
+}
+
+.container_buttons {
+  font-weight: 400px;
+  color: white;
+  border-color: white;
+}
+
+
+/*media carousel end */

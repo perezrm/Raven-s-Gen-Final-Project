@@ -1,0 +1,347 @@
+/*------------ navbar-styling ------------*/
+
+.nav-active {
+    background-color: #231076;
+   
+  }
+  .inner-nav {
+    max-width: 1500px;
+  }
+  
+  nav {
+    z-index: 1;
+    display: flex;
+  
+    margin: auto;
+  }
+  .navbar-links-container {
+    margin: auto;
+  }
+  /* logo */
+  #ravens-logo {
+    width: 6rem;
+  }
+  /* navbar hamburger */
+  #cart-logo {
+    width: 3rem;
+    color: white;
+  }
+  .row .three {
+    padding: 80px 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #ecf0f1;
+    text-align: center;
+  }
+  
+  .hamburger .line {
+    width: 50px;
+    height: 3.5px;
+    background-color: #ecf0f1;
+    display: block;
+    margin: 8px auto;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #line-3 {
+    width: 35px;
+    margin-left: 0px;
+  }
+  .hamburger:hover {
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* navbar */
+    .nav-item a {
+      margin: auto;
+    }
+    .navbar {
+      background-color: #231a2c;
+    }
+    .home-content-container {
+      margin-top: 79.1px;
+    }
+    /* logo */
+    #ravens-logo {
+      width: 6rem;
+    }
+    #cart-logo {
+      width: 3rem;
+    }
+    .nav-link {
+      font-size: 1.3rem;
+      font-weight: 100;
+    }
+  
+   
+  }
+  @media screen and (min-width: 992px) {
+    /* navbar */
+  
+    /* logo */
+    /* logo */
+    /* navbar */
+    #ravens-logo {
+      width: 7rem;
+    }
+    /* navbar hamburger */
+    #cart-logo {
+      width: 3rem;
+    }
+    .nav-link {
+      font-size: 1.3rem;
+    }}
+    
+    @media screen and (min-width: 1400px) {
+      /* navbar */
+  
+      /* logo */
+      /* logo */
+  
+      /* navbar */
+      #ravens-logo {
+        width: 8rem;
+      }
+      /* navbar hamburger */
+      #cart-logo {
+        width: 3.5rem;
+      }
+      .nav-link {
+        font-size: 1.6rem;
+      }
+    }
+
+    /*===============Nav End=================*/
+    .header_line {
+        size: 2px;
+    }
+
+    /*----------------------Video-------------------*/
+     .video_body {
+         background-color: #241A2C;
+         height: 70vh;
+         
+     }
+
+     .video-background {
+         position: relative;
+         width: 100%;
+         min-height: 100vh;
+     }
+
+     .header_video {
+        -moz-box-shadow: 0 0 30px 5px #999;
+        -webkit-box-shadow: 0 0 30px 5px #999;
+        border-radius: 2px;
+     }
+    /*----------------content box-------------*/
+
+    .content_box {
+        background-color: #241A2C;
+        color: white;
+    }
+
+    
+
+    body {
+        background-color: #241A2C;
+        color: white;
+        font: barlow sans-serif;
+    }
+
+    .details {
+        font-size: 1em;
+        font-weight: 300;
+        font: barlow sans-serif;
+        text-align: center;
+    }
+
+    hr {
+        background-color: white;
+        width: 8.5rem;
+        height: .3rem;
+        opacity: 1;;
+    }
+
+    .add-to-cart{
+        color: white;
+        text-align: center;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 23px;
+
+    }  
+
+
+    .buy-now-btn {
+        background-color: red;
+        text-align: center;
+        color: white;
+        border: 1px solid white;
+        box-sizing: border-box;
+        border-radius: 23px;
+    }
+
+    .container_buttons{
+        text-align: center;
+    }
+
+    @media (max-width:767px) {
+
+      .border-end
+      {
+        border:0px solid !important;
+        }
+
+    .border-start {
+        border:0px solid !important;
+    }
+
+
+      }
+
+    /*
+
+    .header_video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+ */
+
+ .header_video {
+    position: sticky-top;
+    width: 100% ;
+    height: 100%;
+    left: 0px;
+    top: 292.2px;
+    border: 1px solid;
+    object-fit:cover;
+ }
+
+   /* @media (max-width: 768px) {
+        .header_video {
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            min-width: 90%;
+            min-height: 20%;
+            z-index: 0;
+            -ms-transform: translateX(-50%) translateY(-50%);
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+    }
+}
+*/
+        .header_box {
+            z-index: 1;
+        }
+
+
+        body {
+            padding-top: 65px;
+        }
+    /*------------ Footer------------*/
+
+.footer-area {
+    background: #0d0d1f;
+    bottom: 0;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    font-weight: normal;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    font-size: 19px;
+  }
+  
+  .footer {
+    background-color: black;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  .footer_logo {
+    
+    width: 150px;
+    height: 150px;
+    display: block;
+  }
+  
+  .footer_logo_nfl {
+    
+    width: 150px;
+    height: 150px;
+    display: block;
+  }
+  
+  
+  .newsletter_screenshot {
+    border-radius: 30px;
+  }
+  
+  .footer_item {
+    font-size: 19px;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  
+  
+  .footer_title {
+    font-family: "Barlow", sans-serif;
+  }
+  
+  .uil {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer_social {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    
+  }
+  
+  .footer_copy {
+    margin-top: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer_item {
+      text-align: center;
+    }
+  
+    .newsletter_screenshot {
+     text-align: center;
+     display: block;
+    }
+    
+    .footer_social{
+      display: block;
+      text-align: center;
+      padding-left: 90px;
+      margin-top: 30px;
+      font-size: 23px;
+    }
+    .footer_copy{
+      margin-top: 50px;
+    }
+  }
+
+  /*==========================Footer Ends===============================*/

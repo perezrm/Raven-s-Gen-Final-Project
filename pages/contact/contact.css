@@ -1,0 +1,135 @@
+.background-img {
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("../../images/touchdw.jpg");
+  /* Image is centered vertically and horizontally at all times */
+  background-position: 50 center;
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  /* Makes the image fixed in the viewport so that it doesn't move when
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color: #464646;
+  position: relative;
+}
+.nav-background{
+  background-color: #231A2C;
+}
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Sarabun:wght@300;400;700&display=swap");
+
+/* form black background */
+.form-box {
+  position: absolute;
+  height:90%;
+  top: 5.9rem;
+  background: rgba(0, 0, 0, 0.75);
+}
+.form-inner{
+  width: 80%;
+  margin: auto;
+}
+#header {
+  color: #ca9425;
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+p,
+#name,
+#subject,
+#email,
+#message {
+  color: white;
+}
+
+#name,
+#subject,
+#email,
+#message {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+}
+
+.message {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+#exampleFormControlTextarea1 {
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.btn-outline-light {
+  border-width: 3px !important;
+  border-radius: 23px !important;
+  width: 132px;
+  height: 37px;
+  font-family: "Barlow", sans-serif;
+}
+
+#linereach {
+  height: 1px;
+  width: 24%;
+  background-color: white;
+  opacity: 1;
+}
+
+#name-input,
+#subject-input,
+#email-input,
+#message-input {
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+label {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+#textunderh {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+}
+@media screen and (min-width: 768px) {
+
+
+.form-box {
+
+  top: 5.9rem;
+width: 60%;
+right: 0;
+}
+.form-inner{
+  width: 80%;
+  margin: auto;
+}
+}
+@media screen and (min-width: 992px) {
+
+
+.form-box {
+
+width: 50%;
+
+}
+
+}
+@media screen and (min-width: 1200px) {
+
+
+.form-box {
+
+width:45%;
+
+}
+
+}
