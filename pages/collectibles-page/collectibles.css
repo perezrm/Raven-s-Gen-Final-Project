@@ -212,7 +212,6 @@ background-color:#ca9425;
      font-family: 'Barlow', sans-serif;  
 }
 
-
 @media (max-width: 768px) {
     
     .main-row img{
@@ -239,9 +238,6 @@ background-color:#ca9425;
     .card-img{
       height: 9rem;
       display: block;
-    }
-    .card-text{
-
     }
     .bg-secondary-1{
      margin-left: 5.2rem;

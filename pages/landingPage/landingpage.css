@@ -728,7 +728,7 @@ margin-left: .5rem;
   cursor: pointer;
 }
 
-/* .nav .prev {
+.nav .prev {
   left: -30px;
   display: none;
 }
@@ -740,7 +740,7 @@ margin-left: .5rem;
 }
 .nav .next.hide {
   display: none;
-} */
+} 
 .beanie{
 max-width: 70%;
 max-height: 65%;
